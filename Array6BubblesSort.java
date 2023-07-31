@@ -5,7 +5,7 @@ public class Array6BubblesSort {
 	public static void main(String[] args) {
 		
 		int[]a = {11, 23, 7, 9, 14};
-		System.out.println("===정렬 전===");
+		System.out.println("============정렬 전===========");
 		for(int idx = 0; idx < 5; idx++) {
 			System.out.printf("%5d",a[idx]);
 		}
@@ -24,7 +24,7 @@ public class Array6BubblesSort {
 			}
 		}
 		System.out.println();
-		System.out.println("====정렬후===");
+		System.out.println("============정렬 후===========");
 		for(int idx = 0; idx < 5; idx++) {
 			System.out.printf("%5d",a[idx]);
 		}
